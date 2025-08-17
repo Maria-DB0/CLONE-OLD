@@ -11,6 +11,5 @@ rm -rf Meta-Hunter
 git clone --depth=1 https://github.com/Maria-DB0/CLONE-OLD/
 cd Meta-Hunter
 pip install pytz
-pip install -r requirements.txt
 termux-setup-storage
-python Meta.py
+python old.py
